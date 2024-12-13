@@ -19,6 +19,7 @@ from django.contrib import admin
 from django.urls import path
 from task2.views import func, class_template
 
+
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", func),
